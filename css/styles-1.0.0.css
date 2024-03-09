@@ -1,0 +1,110 @@
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/opensans-400-ext.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(../fonts/opensans-400.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  --color-primary: #cda45e;
+  --color-secondary: #aaaaaa;
+  --color-light: #ffffff;
+
+  --bg-color-primary: #0c0b09;
+  --bg-color-secondary: #1a1814;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: var(--bg-color-primary);
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px;
+  gap: 28px;
+}
+
+.section-title {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-size: 36px;
+  color: var(--color-primary);
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 14px;
+}
+
+.section-filter {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-filter {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--color-secondary);
+
+  border: none;
+  background: none;
+
+  padding: 8px 12px;
+  margin: 0px;
+}
+
+.btn-filter-active, .btn-filter:hover {
+  color: var(--color-primary);
+}
+
+.item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.item-name {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-size: 18px;
+  color: var(--color-light);
+}
+
+.item-price {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-size: 18px;
+  color: var(--color-primary);
+}
+
+
+

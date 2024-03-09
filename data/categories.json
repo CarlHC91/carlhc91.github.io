@@ -1,0 +1,31 @@
+﻿[
+	{
+		"id": 1,
+		"name_es": "Entrantes",
+		"name_en": "Starters"
+	}, {
+		"id": 2,
+		"name_es": "Ensaladas",
+		"name_en": "Salads"
+	}, {
+		"id": 3,
+		"name_es": "Pastas",
+		"name_en": "Pastas"
+	}, {
+		"id": 4,
+		"name_es": "Carnes",
+		"name_en": "Meats"
+	}, {
+		"id": 5,
+		"name_es": "Pescados",
+		"name_en": "Fishes"
+	}, {
+		"id": 6,
+		"name_es": "Pizzas",
+		"name_en": "Pizzas"
+	}, {
+		"id": 7,
+		"name_es": "Postres",
+		"name_en": "Desserts"
+	}
+] 
