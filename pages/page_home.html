@@ -1,0 +1,50 @@
+
+<section class="section-navbar">
+    <div class="navbar-content">
+        <div class="navbar-language"></div>
+
+        <div class="navbar-title">
+            Casa Pedro
+        </div>
+
+        <button class="navbar-dropdown">
+            <i class="fa-duotone fa-chevron-down"></i>
+        </button>
+    </div>
+</section>
+
+<section class="section-menu">
+    <div class="menu-title">
+        Carta
+    </div>
+
+    <div class="menu-filter">
+        <button class="btn-filter" ng-class="{'btn-filter-active': selected_category == null}" ng-click="setCategory(null)">
+            Todos
+        </button>
+
+        <button class="btn-filter" ng-class="{'btn-filter-active': selected_category == category.id}" ng-click="setCategory(category.id)" ng-repeat="category in categories">
+            {{category.name_es}}
+        </button>
+    </div>
+
+    <div class="menu-content">
+        <div class="menu-category" ng-repeat="category in categories" ng-if="selected_category == null || selected_category == category.id">
+            <div class="menu-category-title">
+                {{category.name_es}}
+            </div>
+
+            <div class="menu-product" ng-repeat="product in products | filter: { category: category.id }">
+                <div>
+                    <div class="menu-product-title">{{product.name_es}}</div>
+                    <div class="menu-product-desc">{{product.desc_es}}</div>
+                </div>
+
+                <div class="item-product-price">
+                    {{product.price | number: 2}} €
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

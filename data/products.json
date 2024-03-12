@@ -1,0 +1,376 @@
+﻿[
+	{
+		"id": 1,
+		"category": 1,
+		"name_es": "Consomé de la casa",
+		"name_en": "Chef consomé",
+		"price": 3.00
+	}, {
+		"id": 2,
+		"category": 1,
+		"name_es": "Camembert empanado con sésamo",
+		"name_en": "Breaded camembert cheese with sesame",
+		"price": 9.00
+	}, {
+		"id": 3,
+		"category": 1,
+		"name_es": "Sopa de pollo",
+		"name_en": "Chicken soup",
+		"price": 5.00
+	}, {
+		"id": 4,
+		"category": 1,
+		"name_es": "Huevos rotos con jamón",
+		"name_en": "Scrumbled eggs and spanish ham",
+		"price": 10.00
+	}, {
+		"id": 5,
+		"category": 1,
+		"name_es": "Gambas al ajillo",
+		"name_en": "Shimp in seafood sauce",
+		"price": 15.00
+	}, {
+		"id": 6,
+		"category": 1,
+		"name_es": "Mejillones a la marinera",
+		"name_en": "Mussels in seafood sauce",
+		"price": 13.00
+	}, {
+		"id": 7,
+		"category": 1,
+		"name_es": "Tabla de paté",
+		"name_en": "Chef pate",
+		"price": 9.00
+	}, {
+		"id": 8,
+		"category": 1,
+		"name_es": "Aguacate con langostinos",
+		"name_en": "Avocado with prawns",
+		"price": 13.00
+	}, {
+		"id": 9,
+		"category": 1,
+		"name_es": "Carpaccio de salmón",
+		"name_en": "Raw salmon",
+		"price": 12.00
+	}, {
+		"id": 10,
+		"category": 1,
+		"name_es": "Jamón ibérico",
+		"name_en": "Spanish ham",
+		"price": 17.00
+	}, {
+		"id": 11,
+		"category": 1,
+		"name_es": "Queso parmesano",
+		"name_en": "Parmesan cheese",
+		"price": 8.00
+	}, {
+		"id": 12,
+		"category": 1,
+		"name_es": "Queso curado",
+		"name_en": "Cured cheese",
+		"price": 8.00
+	}, {
+		"id": 13,
+		"category": 2,
+		"name_es": "Ensalada de la casa",
+		"name_en": "Special chef salad",
+		"price": 14.00
+	}, {
+		"id": 14,
+		"category": 2,
+		"name_es": "Ensalada de langostinos a la naranja",
+		"name_en": "Salad with king prawns in orange sauce",
+		"price": 14.00
+	}, {
+		"id": 15,
+		"category": 2,
+		"name_es": "Ensalada mixta",
+		"name_en": "Mixed salad",
+		"price": 11.00
+	}, {
+		"id": 16,
+		"category": 2,
+		"name_es": "Ensalada italiana con salsa rosa",
+		"name_en": "Italian salad",
+		"price": 12.00
+	}, {
+		"id": 17,
+		"category": 3,
+		"name_es": "Macarrones boloñesa",
+		"name_en": "Macaroni bolognese",
+		"price": 8.00
+	}, {
+		"id": 18,
+		"category": 3,
+		"name_es": "Macarrones gratinados",
+		"name_en": "Macaroni gratin",
+		"price": 9.00
+	}, {
+		"id": 19,
+		"category": 3,
+		"name_es": "Espaguetis boloñesa",
+		"name_en": "Spaghetti Bolognese",
+		"price": 8.00
+	}, {
+		"id": 20,
+		"category": 3,
+		"name_es": "Espaguetis carbonara",
+		"name_en": "Spaghetti carbonara",
+		"price": 9.00
+	}, {
+		"id": 21,
+		"category": 3,
+		"name_es": "Lasaña de espinacas",
+		"name_en": "Spinach lasagna",
+		"price": 9.00
+	}, {
+		"id": 22,
+		"category": 3,
+		"name_es": "Lasaña boloñesa",
+		"name_en": "Bolognese lasagna",
+		"price": 9.50
+	}, {
+		"id": 23,
+		"category": 3,
+		"name_es": "Canelones de espinacas",
+		"name_en": "Spinach canelloni",
+		"price": 9.00
+	}, {
+		"id": 24,
+		"category": 3,
+		"name_es": "Canelones boloñesa",
+		"name_en": "Bolognese canelloni",
+		"price": 9.50
+	}, {
+		"id": 25,
+		"category": 4,
+		"name_es": "Solomillo de ternera a la plancha",
+		"name_en": "Grilled beef tenderloin",
+		"price": 22.00
+	}, {
+		"id": 26,
+		"category": 4,
+		"name_es": "Entrecot de ternera a la plancha",
+		"name_en": "Grilled beef entrecot",
+		"price": 18.00
+	}, {
+		"id": 27,
+		"category": 4,
+		"name_es": "Chuletillas de cabrito lechal",
+		"name_en": "Grilled goat kid chops",
+		"price": 15.00
+	}, {
+		"id": 28,
+		"category": 4,
+		"name_es": "Solomillo de cerdo con salsa de setas",
+		"name_en": "Pork tenderloin in mushroom sauce",
+		"price": 14.00
+	}, {
+		"id": 29,
+		"category": 4,
+		"name_es": "Secreto de cerdo ibérico",
+		"name_en": "Iberian pork secret",
+		"price": 15.00
+	}, {
+		"id": 30,
+		"category": 4,
+		"name_es": "Pechuga de pollo a la plancha",
+		"name_en": "Grilled chicken breast",
+		"price": 8.00
+	}, {
+		"id": 31,
+		"category": 4,
+		"name_es": "Salsas",
+		"desc_es": "Pimienta, Roquefort, Pedro Ximénez",
+		"name_en": "Sauces",
+		"desc_en": "Black pepper, Roquefort cheese, Pedro Ximenez",
+		"price": 2.50
+	}, {
+		"id": 32,
+		"category": 5,
+		"name_es": "Calamar a la plancha",
+		"name_en": "Grilled squad",
+		"price": 16.00
+	}, {
+		"id": 33,
+		"category": 5,
+		"name_es": "Rodaballo a la plancha",
+		"name_en": "Grilled turbot",
+		"price": 17.00
+	}, {
+		"id": 34,
+		"category": 5,
+		"name_es": "Dorada a la plancha",
+		"name_en": "Grilled gilthead bream",
+		"price": 13.00
+	}, {
+		"id": 35,
+		"category": 5,
+		"name_es": "Salmón con salsa verde",
+		"name_en": "Salmon in green sauce",
+		"price": 12.00
+	}, {
+		"id": 36,
+		"category": 5,
+		"name_es": "Lubina con salsa de almendras",
+		"name_en": "Sea bass in almond sauce",
+		"price": 13.00
+	}, {
+		"id": 37,
+		"category": 5,
+		"name_es": "Paella pelada",
+		"desc_es": "Encargo min. 2 personas",
+		"name_en": "Peeled paella",
+		"desc_en": "min. 2 people advance order",
+		"price": 13.00
+	}, {
+		"id": 38,
+		"category": 5,
+		"name_es": "Paella de marisco",
+		"desc_es": "Encargo min. 2 personas",
+		"name_en": "Seafood paella",
+		"desc_en": "min. 2 people advance order",
+		"price": 12.00
+	}, {
+		"id": 39,
+		"category": 6,
+		"name_es": "Margarita",
+		"desc_es": "Tomate, queso, orégano",
+		"name_en": "Margarita",
+		"desc_en": "Tomato, cheese, oregano",
+		"price": 7.00
+	}, {
+		"id": 40,
+		"category": 6,
+		"name_es": "Napolitana",
+		"desc_es": "Tomate, queso, anchoas, aceitunas negras, orégano",
+		"name_en": "Neapolitan",
+		"desc_en": "Tomato, cheese, anchovies, black olives, oregano",
+		"price": 9.00
+	}, {
+		"id": 41,
+		"category": 6,
+		"name_es": "Caprichosa",
+		"desc_es": "Tomate, queso, jamón, champiñón, gambas, orégano",
+		"name_en": "Capricius",
+		"desc_en": "Tomato, cheese, ham, mushroom, prawns, oregano",
+		"price": 11.00
+	}, {
+		"id": 42,
+		"category": 6,
+		"name_es": "De pollo",
+		"desc_es": "Tomate, queso, pollo, maíz, cebolla, orégano",
+		"name_en": "Chicken",
+		"desc_en": "Tomato, cheese, chicken, corn, onion, oregano",
+		"price": 9.00
+	}, {
+		"id": 43,
+		"category": 6,
+		"name_es": "Maltesa",
+		"desc_es": "Tomate, queso, atún, cebolla, orégano",
+		"name_en": "Maltese",
+		"desc_en": "Tomato, cheese, chicken, corn, onion, oregano",
+		"price": 9.00
+	}, {
+		"id": 44,
+		"category": 6,
+		"name_es": "Hawaiana",
+		"desc_es": "Tomate, queso, jamón, piña, orégano",
+		"name_en": "Hawaiian",
+		"desc_en": "Tomato, cheese, ham, pineapple, oregano",
+		"price": 9.00
+	}, {
+		"id": 45,
+		"category": 6,
+		"name_es": "Funghi",
+		"desc_es": "Tomate, queso, jamón, champiñón, orégano",
+		"name_en": "Funghi",
+		"desc_en": "Tomato, cheese, ham, mushroom, oregano",
+		"price": 9.00
+	}, {
+		"id": 46,
+		"category": 6,
+		"name_es": "Tartufo",
+		"desc_es": "Tomate, queso, bacon, champiñón, salsa trufa, orégano",
+		"name_en": "Tartufo",
+		"desc_en": "Tomato, cheese, bacon, mushroom, truffle sauce, oregano",
+		"price": 10.00
+	}, {
+		"id": 47,
+		"category": 6,
+		"name_es": "De la casa",
+		"desc_es": "Tomate, queso, jamón, champiñón, salami, aceitunas negras, orégano",
+		"name_en": "Special Chef",
+		"desc_en": "Tomato, cheese, ham, mushroom, salami, black olives, oregano",
+		"price": 11.00
+	}, {
+		"id": 48,
+		"category": 7,
+		"name_es": "Coulant de chocolate",
+		"name_en": "Chocolate coulant",
+		"price": 5.00
+	}, {
+		"id": 49,
+		"category": 7,
+		"name_es": "Brownie de chocolate",
+		"name_en": "Chocolate brownie",
+		"price": 6.00
+	}, {
+		"id": 50,
+		"category": 7,
+		"name_es": "Flan",
+		"name_en": "Thick custard",
+		"price": 4.00
+	}, {
+		"id": 51,
+		"category": 7,
+		"name_es": "Fruta del tiempo",
+		"name_en": "Fresh fruit",
+		"price": 2.50
+	}, {
+		"id": 52,
+		"category": 7,
+		"name_es": "Pan de Calatrava",
+		"name_en": "Pumpkin bread cake",
+		"price": 5.00
+	}, {
+		"id": 53,
+		"category": 7,
+		"name_es": "Tocino de cielo",
+		"name_en": "Sweet with egg yolk and syrup",
+		"price": 5.50
+	}, {
+		"id": 54,
+		"category": 7,
+		"name_es": "Tarta de queso",
+		"name_en": "Cheese cake",
+		"price": 6.00
+	}, {
+		"id": 55,
+		"category": 7,
+		"name_es": "Piña natural",
+		"name_en": "Fresh pineapple",
+		"price": 4.00
+	}, {
+		"id": 56,
+		"category": 7,
+		"name_es": "Fresas",
+		"name_en": "Strawberries",
+		"price": 5.00
+	}, {
+		"id": 57,
+		"category": 7,
+		"name_es": "Crema catalana",
+		"name_en": "Catalan cream",
+		"price": 4.50
+	}, {
+		"id": 58,
+		"category": 7,
+		"name_es": "Tarta de whisky",
+		"name_en": "Whiskey cake",
+		"price": 6.00
+	}
+]		
+	
