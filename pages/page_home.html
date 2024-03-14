@@ -1,37 +1,53 @@
 
 <section class="section-navbar">
-    <div class="navbar-content">
-        <div class="navbar-title">
-            Casa Pedro
-        </div>
+    <div class="navbar-title">
+        Casa Pedro
     </div>
 </section>
 
 <section class="section-menu">
-    <div class="menu-title">
-        Carta
+    <div class="menu-header">
+        <div class="menu-title">
+            <span ng-show="selected_language == 'es'">Carta</span>
+            <span ng-show="selected_language == 'en'">Menu</span>
+        </div>
+
+        <div class="menu-flags">
+            <img src="images/es.png" ng-click="setLanguage('es')">
+            <img src="images/en.png" ng-click="setLanguage('en')">
+        </div>
     </div>
 
     <div class="menu-filter">
         <button class="btn-filter" ng-class="{'btn-filter-active': selected_category == null}" ng-click="setCategory(null)">
-            Todos
+            <span ng-show="selected_language == 'es'">Todos</span>
+            <span ng-show="selected_language == 'en'">All</span>
         </button>
 
         <button class="btn-filter" ng-class="{'btn-filter-active': selected_category == category.id}" ng-click="setCategory(category.id)" ng-repeat="category in categories">
-            {{category.name_es}}
+            <span ng-show="selected_language == 'es'">{{category.name_es}}</span>
+            <span ng-show="selected_language == 'en'">{{category.name_en}}</span>
         </button>
     </div>
 
     <div class="menu-content">
         <div class="menu-category" ng-repeat="category in categories" ng-if="selected_category == null || selected_category == category.id">
             <div class="menu-category-title">
-                {{category.name_es}}
+                <span ng-show="selected_language == 'es'">{{category.name_es}}</span>
+                <span ng-show="selected_language == 'en'">{{category.name_en}}</span>
             </div>
 
             <div class="menu-product" ng-repeat="product in products | filter: { category: category.id }">
                 <div>
-                    <div class="menu-product-title">{{product.name_es}}</div>
-                    <div class="menu-product-desc">{{product.desc_es}}</div>
+                    <div class="menu-product-title">
+                        <span ng-show="selected_language == 'es'">{{product.name_es}}</span>
+                        <span ng-show="selected_language == 'en'">{{product.name_en}}</span>
+                    </div>
+
+                    <div class="menu-product-desc">
+                        <span ng-show="selected_language == 'es'">{{product.desc_es}}</span>
+                        <span ng-show="selected_language == 'en'">{{product.desc_en}}</span>
+                    </div>
                 </div>
 
                 <div class="item-product-price">
@@ -39,6 +55,11 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="menu-disclaimer">
+        <span ng-show="selected_language == 'es'">IVA no incluido</span>
+        <span ng-show="selected_language == 'en'">VAT not included</span>
     </div>
 </section>
 

@@ -17,8 +17,15 @@ angular.module('app.controllers', ['app.services'])
 
     $scope.selected_category = null;
 
-    $scope.setCategory = function (id) {
-        $scope.selected_category = id;
+    $scope.setCategory = function (value) {
+        $scope.selected_category = value;
     };
+
+    $scope.selected_language = 'es';
+
+    $scope.setLanguage = function (value) {
+        $scope.selected_language = value;
+    };
+
 });
 

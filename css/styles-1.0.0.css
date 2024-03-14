@@ -67,7 +67,7 @@ body {
     height: 35vh;
 }
 
-.navbar-content {
+.navbar-title {
     position: relative;
     width: 100%;
     height: 100%;
@@ -78,9 +78,7 @@ body {
     justify-content: center;
 
     background-color: rgba(0, 0, 0, 0.6);
-}
 
-.navbar-title {
     font-family: 'Great Vibes';
     font-weight: normal;
     font-size: 64px;
@@ -102,6 +100,24 @@ body {
   font-weight: normal;
   font-size: 32px;
   color: var(--color-primary);
+}
+
+.menu-header {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-flags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu-flags img {
+  height: 24px;
 }
 
 .menu-filter {
@@ -174,5 +190,17 @@ body {
   font-weight: normal;
   font-size: 14px;
   white-space: nowrap;
+  color: var(--color-primary);
+}
+
+.menu-disclaimer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-size: 18px;
   color: var(--color-primary);
 }
